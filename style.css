@@ -1,0 +1,13 @@
+body{
+    background-image:url(assets/pexels-nici-gottstein-138431104-19784858.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+main{   
+  width: 1120px;
+  margin: 0 auto;
+  padding: 80px;
+  box-sizing: border-box;
+  background-color: rgb(237, 208, 173);
+}
