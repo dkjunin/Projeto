@@ -1,13 +1,42 @@
+/* Defindo a fonte */
+:root {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  line-height: 1.5;
+color: rgb(49, 33, 33);
+ 
+}
+/* imagem de fundo */
 body{
     background-image:url(assets/pexels-nici-gottstein-138431104-19784858.jpg); 
     background-size: cover;
     background-position: center;
 }
 
+/*fundo dos textos e imagens como #page */
 main{   
   width: 1120px;
   margin: 0 auto;
   padding: 80px;
   box-sizing: border-box;
   background-color: rgb(237, 208, 173);
+}
+
+/*referencia-se ao primeiro texto acima de h1*/
+#inicio p:first-child {
+    color: red;
+    text-transform: uppercase;
+    font-size: smaller;
+    padding-bottom: 0px;
+
+}
+
+/* Titulo h1 */
+#inicio h1{
+    text-transform: uppercase;
+    color: rgb(86, 18, 38);
 }
