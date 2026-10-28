@@ -7,23 +7,30 @@
   font-variation-settings:
     "wdth" 100;
   line-height: 1.5;
-color: rgb(49, 33, 33);
- 
+color: rgb(84, 49, 49);
+font-size: 16px;
+text-align: left;
+font-style: italic;
 }
 /* imagem de fundo */
 body{
     background-image:url(assets/pexels-nici-gottstein-138431104-19784858.jpg); 
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
 }
 
 /*fundo dos textos e imagens como #page */
 main{   
   width: 1120px;
-  margin: 0 auto;
-  padding: 80px;
+  margin: 48px auto;
+  padding: 60px 80px 16px;
   box-sizing: border-box;
-  background-color: rgb(237, 208, 173);
+  background-color: rgba(232, 210, 203, 0.994);
+  margin-bottom: 0px;
 }
 
 /*referencia-se ao primeiro texto acima de h1*/
@@ -32,11 +39,138 @@ main{
     text-transform: uppercase;
     font-size: smaller;
     padding-bottom: 0px;
-
+    padding-top: 0px;
+    font-style: normal;
 }
 
 /* Titulo h1 */
 #inicio h1{
     text-transform: uppercase;
     color: rgb(86, 18, 38);
+    font-style: normal;  
+}
+/* imagem do inicio */
+#inicio img{
+    height: 600px;
+    width: 1120px;
+    max-width: 100%;
+    border-radius: 16px;
+}
+#Interesses p:first-child{
+    color: red;
+    text-transform: uppercase;
+    font-size: smaller;
+    padding-bottom: 0px;
+    font-style: normal;   
+}
+/* imagem da apresentação dos interesses  */
+#Interesses img{
+    width: 1120px;
+    height: 500px;
+    max-width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+/* titulo dos interesses */
+#Interesses h2{
+    text-transform: uppercase;
+    color: rgb(86, 18, 38);
+    font-style: normal;
+}
+/* imagem do museu */
+#museu img{
+    width: 1120px;
+    height: 500px;
+    max-width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+/* titulo do div museu */
+#museu h2{
+    text-transform: uppercase;
+    color: rgb(86, 18, 38);
+    font-style: normal;
+}
+/* lista do museu  */
+#museu ul{
+    padding-left: 28px;
+    color: rgb(86, 18, 38);
+    font-style: normal;
+}
+/* texto "interesses" sobre museu"  */
+#museu p strong{
+    color: red;
+    text-transform: uppercase;
+    font-style: normal;
+}
+/* imagem da div culinaria  */
+#Culinaria img{
+    width: 1120px;
+    height: 500px;
+    max-width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+/* titulo da div culinaria  */
+#Culinaria h2{
+    text-transform: uppercase;
+    color: rgb(86, 18, 38);
+    font-style: normal;
+
+}
+/* text sobre a div */
+#Culinaria p strong{
+    color: red;
+    text-transform: uppercase;
+    font-style: normal;
+    
+}
+/* lista da div  */
+#Culinaria ul{
+    padding-left: 28px;
+    color: rgb(86, 18, 38);
+    font-style: normal;
+}
+/* imagem da div  */
+#rental img{
+    width: 1120px;
+    height: 500px;
+    max-width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+    padding-bottom: 12px;
+
+}
+/* titulo da div  */
+#rental h2{
+    text-transform: uppercase;
+    color: rgb(86, 18, 38);
+    font-style: normal;
+}
+/* sobre da div  */
+#rental p strong{
+    color: red;
+    text-transform: uppercase;
+    font-style: normal;
+}
+/* lista da div  */
+#rental ul{
+    padding-left: 28px;
+    color: rgb(86, 18, 38);
+    font-style: normal;
+
+}
+/* texto da div resumo  */
+#Resumo p{
+    font-style: normal;
+    color: rgb(92, 28, 28);
+}
+/* rodapé  */
+footer {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 32px 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
 }
